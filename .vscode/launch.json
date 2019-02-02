@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///D:/SOFTUNI/Repositories/JS Core/JS Fundamentals/Document Object Model/Exercise/04. Locked-Profile/template.html",
+            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Fundamentals/Functions%20and%20Logic%20Flow/05_Cards-Generator/template.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
