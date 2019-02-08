@@ -5,11 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch localhost",
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Fundamentals/Functions%20and%20Logic%20Flow/05_Cards-Generator/template.html",
-            "webRoot": "${workspaceFolder}"
-        }
+            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Fundamentals/Objects%20and%20JSON%20DOM%20Events/04.Salesman/template.html",
+            "webRoot": "${workspaceFolder}/JS Core"
+        },
+        {
+            "name": "Launch index.html",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/template.html"
+        },
     ]
 }
