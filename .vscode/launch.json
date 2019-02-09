@@ -8,7 +8,7 @@
             "name": "Launch localhost",
             "type": "chrome",
             "request": "launch",
-            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Fundamentals/Objects%20and%20JSON%20DOM%20Events/04.Salesman/template.html",
+            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Fundamentals/ExamPrep/03.%20Extractor/template.html",
             "webRoot": "${workspaceFolder}/JS Core"
         },
         {
