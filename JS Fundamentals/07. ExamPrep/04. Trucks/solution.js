@@ -1,5 +1,4 @@
 function solve() {
-    let divElements = document.getElementsByTagName('div');
     let fieldSets = document.getElementsByTagName('fieldset');
     let buttons = document.getElementsByTagName('button');
     let output = document.querySelector('textarea');
