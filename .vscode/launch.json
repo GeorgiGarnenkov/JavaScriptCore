@@ -5,6 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Advanced/04.%20Object%20Composition/Exercise/7. DOM Highlighter/07.%20DOM%20Highlighter_HTML%20Skeleton.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Debug Mocha Tests",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "protocol": "inspector",
+            "timeout": 30000,
+            "stopOnEntry": false
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Mocha Tests",
@@ -15,7 +31,7 @@
                 "--timeout",
                 "999999",
                 "--colors",
-                "${workspaceFolder}/JS Advanced\\02. Unit Testing\\Lab\\7. Add-Subtract.test.js"
+                "${workspaceFolder}/JS Advanced/03. JS Classes/Lab/7. String Builder.test.js"
             ],
             "internalConsoleOptions": "openOnSessionStart"
         },
@@ -23,7 +39,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/JS Advanced\\02. Unit Testing\\Lab\\7. Add-Subtract.test.js"
+            "program": "${file}"
         }
     ]
 }
