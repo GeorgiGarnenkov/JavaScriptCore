@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "file:///D:/SOFTUNI/Repositories/JS%20Core/JS%20Advanced/04.%20Object%20Composition/Exercise/7. DOM Highlighter/07.%20DOM%20Highlighter_HTML%20Skeleton.html",
+            "url": "D:/SOFTUNI/Repositories/JS Core/JS Advanced/06. DOM Manupulations/Exercise/6. Time Converter/timeConverter.html",
             "webRoot": "${workspaceFolder}"
         },
         {
