@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "D:/SOFTUNI/Repositories/JS Core/JS Advanced/06. DOM Manupulations/Exercise/6. Time Converter/timeConverter.html",
+            "url": "D:/SOFTUNI/Repositories/JS Core/JS Advanced/07. Exam Prep/JS Advanced Exam - 18 November 2018/4. Real Estate Agency/index.html",
             "webRoot": "${workspaceFolder}"
         },
         {
@@ -31,7 +31,7 @@
                 "--timeout",
                 "999999",
                 "--colors",
-                "${workspaceFolder}/JS Advanced/03. JS Classes/Lab/7. String Builder.test.js"
+                "${workspaceFolder}/JS Advanced/07. Exam Prep/JS Advanced Exam - 18 November 2018/2. Softunify/app.test.js"
             ],
             "internalConsoleOptions": "openOnSessionStart"
         },
