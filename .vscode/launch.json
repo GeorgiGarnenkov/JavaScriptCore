@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "D:/SOFTUNI/Repositories/JS Core/JS Advanced/08. Exam/4/template.html",
+            "url": "D:/SOFTUNI/Repositories/JS Core/JS Applications/02. AJAX and jQuery AJAX/Lab/2. AJAX Load/ajax-load.html",
             "webRoot": "${workspaceFolder}"
         },
         {
