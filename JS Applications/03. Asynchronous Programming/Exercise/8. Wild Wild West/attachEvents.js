@@ -57,17 +57,7 @@ function attachEvents() {
                 $('#players').append(div);
             }
 
-            $('#save').css('display', 'block');
-            $('#reload').css('display', 'block');
-            $('#canvas').css('display', 'block');
 
-            if (id) {
-                selectedPlayer = allPlayers.filter(p => p._id == id)[0];
-            } else {
-                selectedPlayer = allPlayers[0];
-            }
-            playerId = selectedPlayer._id;
-            loadCanvas(selectedPlayer);
 
         }).catch(err => {
             console.log(err);
@@ -77,7 +67,19 @@ function attachEvents() {
     function playPlayer() {
         let id = $(this).parent().data('id');
         clearInterval(canvas.intevalId);
-        loadGame(id);
+
+        $('#save').css('display', 'block');
+        $('#reload').css('display', 'block');
+        $('#canvas').css('display', 'block');
+
+        if (id) {
+            selectedPlayer = allPlayers.filter(p => p._id == id)[0];
+        } else {
+            selectedPlayer = allPlayers[0];
+        }
+        
+        playerId = selectedPlayer._id;
+        loadCanvas(selectedPlayer);
     }
 
     function reloadBullets() {
