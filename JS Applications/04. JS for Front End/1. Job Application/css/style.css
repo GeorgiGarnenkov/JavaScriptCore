@@ -1,0 +1,34 @@
+#editor {
+    overflow: scroll;
+    max-height: 300px
+}
+
+body {
+    background-image: url("../img/hands-with-pencil-and-ruler.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    backdrop-filter: opacity(.5);
+}
+
+.white-text{
+    color: white;
+    text-decoration-color: white;
+}
+
+
+.blue-container{
+    background-color: #17A2B8;    
+}
+
+.card {
+    border: 2px solid white;
+    margin: 5px;
+}
+
+.social-media-form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -3px;
+}
+

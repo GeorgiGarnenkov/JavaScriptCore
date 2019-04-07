@@ -1,0 +1,8 @@
+{
+    "name": "handlebars-template",
+    "version": "0.0.1",
+    "dependencies": {
+        "handlebars": "^4.1.1",
+        "mustache": "^3.0.1"
+    }
+}
