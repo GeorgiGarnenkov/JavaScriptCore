@@ -2,8 +2,8 @@ function showInfo(id) {
     $(`#${id}`).toggle();
 }
 
-$(async () => {
-
+$(async () => { 
+    
     try {
         const monkeysHTML = await $.get('./monkeys.hbs');
         const monkeyInfoHTML = await $.get('./monkeyInfo.hbs');
