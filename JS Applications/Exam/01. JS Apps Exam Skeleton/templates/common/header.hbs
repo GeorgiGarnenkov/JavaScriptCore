@@ -1,0 +1,12 @@
+<header>
+  <nav>
+    <a href="#/home">Home</a>
+      {{#if isAuth}}
+        <span>Welcome, {{username}}</span>
+        <a href="#/logout">Logout</a>
+        {{else}}
+          <a href="#/register">Register</a>
+          <a href="#/login">Login</a>
+      {{/if}}
+  </nav>
+</header>

@@ -1,1 +1,1 @@
-# JavaScriptFundamentals
+# JSCore
