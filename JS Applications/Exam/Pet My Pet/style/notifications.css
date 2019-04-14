@@ -1,0 +1,33 @@
+#notifications {
+    float: right;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    text-align: center;
+    margin: 1em;
+}
+
+.notification {
+    font-size: 1.5em;
+    color: #ffffff;
+    display: none;
+    text-align: right;
+}
+
+.notification>span {
+    display: inline-block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 30px;
+}
+
+#loadingBox>span {
+    background: rgb(89, 202, 236);
+}
+
+#infoBox>span {
+    background: rgb(45, 204, 93);
+}
+
+#errorBox>span {
+    background: rgb(240, 70, 70);
+}
