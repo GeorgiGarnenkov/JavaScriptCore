@@ -2,7 +2,9 @@
     "name": "handlebars-template",
     "version": "0.0.1",
     "dependencies": {
+        "chai": "^4.2.0",
         "handlebars": "^4.1.1",
+        "mocha": "^6.0.2",
         "mustache": "^3.0.1"
     }
 }

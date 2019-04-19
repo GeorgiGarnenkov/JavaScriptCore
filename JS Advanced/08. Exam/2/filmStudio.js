@@ -102,8 +102,4 @@ console.log(filmStudio.makeMovie('The Avengers', ['Iron-Man', 'Thor', 'Hulk', 'A
 console.log(filmStudio.casting('pesho', 'Thor'));
 
 
-
-
-
-
-module.exports = FilmStudio;
+//module.exports = FilmStudio;
