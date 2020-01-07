@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div class="jumbotron">
+    <head>
+      <meta charset="UTF-8" />
+      <title>XS-Ranking</title>
+
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+    </head>
+
+    <body>
+      <header>
+        <button class="btn btn-light" id="btnHome">Home</button>
+        <button class="btn btn-light" id="btnCity">City</button>
+        <button class="btn btn-light" id="btnAerna">Arena</button>
+        <button class="btn btn-light" id="btnGuilds">Guilds</button>
+        <button class="btn btn-light" id="btnRanking">Ranking</button>
+        <button
+          class="btn btn-light dropdown-toggle"
+          type="button"
+          id="btnVip"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Vip
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnVip">
+          <a class="dropdown-item" href="#">Drop down 1</a>
+          <a class="dropdown-item" href="#">Drop down 2</a>
+          <a class="dropdown-item" href="#">Menu down 4</a>
+        </div>
+      </header>
+      <div id="reload">
+        <button id="btnReload">
+          RELOAD
+        </button>
+        <div id="timer">
+          <div class="row begin-countdown">
+            <div class="col-md-12 text-center">
+              <progress value="10" max="10" id="pageBeginCountdown"></progress>
+              <p>
+                Reload in
+                <span id="pageBeginCountdownText">10 </span> seconds
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="overlay">
+        <div id="errorBox" class="notification" disabled></div>
+      </div>
+      <main>
+        <button
+          id="btnHideTable"
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Ranking table
+        </button>
+        <div class="collapse" id="collapseExample">
+          <table id="myTable" class="sortable">
+            <thead>
+              <tr>
+                <th data-field="rank" style="text-align:center">Rank</th>
+                <th data-field="name">Name</th>
+                <th data-field="club">Club</th>
+                <th data-field="level" style="text-align:center">Level</th>
+                <th
+                  class="default-sort"
+                  data-field="experience"
+                  style="text-align:center"
+                >
+                  Experience
+                </th>
+                <th data-field="messages" style="text-align:center">
+                  Messages
+                </th>
+              </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+          </table>
+        </div>
+      </main>
+
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"
+      ></script>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="ranking.js"></script>
+      <script>
+        attachEvents();
+      </script>
+    </body>
+  </div>
+</html>

@@ -1,0 +1,101 @@
+{
+    "status": 1,
+    "ranking": {
+        "1": {
+        	"name": "James Stiner",
+        	"club": "X",
+        	"level": "5",
+        	"experience": "52"
+        },
+        "2": {
+        	"name": "Julia Braswell",
+        	"club": "Y",
+        	"level": "10",
+        	"experience": "230"
+        },
+        "3": {
+        	"name": "Tabitha Blair",
+        	"club": "X",
+        	"level": "1",
+        	"experience": "4"
+        },
+        "4": {
+        	"name": "James Rider",
+        	"club": "X",
+        	"level": "12",
+        	"experience": "400"
+        },
+        "5": {
+        	"name": "William Gardner",
+        	"club": "X",
+        	"level": "15",
+        	"experience": "843"
+        },
+        "6": {
+        	"name": "Steven Spires",
+        	"club": "Y",
+        	"level": "3",
+        	"experience": "30"
+        },
+        "7": {
+        	"name": "Jim Gipson",
+        	"club": "Y",
+        	"level": "7",
+        	"experience": "89"
+        },
+        "8": {
+        	"name": "Don Morrison",
+        	"club": "X",
+        	"level": "8",
+        	"experience": "120"
+        },
+        "9": {
+        	"name": "Virgil McLaughlin",
+        	"club": "Y",
+        	"level": "19",
+        	"experience": "2346"
+        },
+        "10": {
+        	"name": "Lonnie Alvarado",
+        	"club": "Z",
+        	"level": "50",
+        	"experience": "10596"
+        },
+        "11": {
+        	"name": "Ramona Teague",
+        	"club": "Z",
+        	"level": "1",
+        	"experience": "1"
+        },
+        "12": {
+        	"name": "Gerald McCormack",
+        	"club": "X",
+        	"level": "2",
+        	"experience": "11"
+        },
+        "13": {
+        	"name": "Carolyn Turner",
+        	"club": "Y",
+        	"level": "30",
+        	"experience": "5200"
+        },
+        "14": {
+        	"name": "Donald Mathis",
+        	"club": "Y",
+        	"level": "5",
+        	"experience": "51"
+        },
+        "15": {
+        	"name": "Doug Coleman",
+        	"club": "X",
+        	"level": "6",
+        	"experience": "67"
+        },
+        "16": {
+        	"name": "Antonia Nigro",
+        	"club": "X",
+        	"level": "1",
+        	"experience": "2"
+        }
+    }
+}

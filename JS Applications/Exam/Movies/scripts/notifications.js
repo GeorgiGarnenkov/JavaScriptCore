@@ -14,11 +14,11 @@ let notifications = (() => {
     let errorBox = $('#errorBox')
     errorBox.find('span').text(message)
     errorBox.fadeIn()
-    setTimeout(() => errorBox.fadeOut(), 3000)
+    setTimeout(() => errorBox.fadeOut(), 3000);
   }
 
   function handleError(reason) {
-    showError(reason.responseJSON.description)
+    showError(reason.responseJSON.description);
   }
 
   return {

@@ -5,25 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
-            "request": "launch",
-            "name": "Mocha Tests",
-            "program": "D:/SOFTUNI/Repositories/JS Core/node_modules/mocha/bin/_mocha",
-            "args": [
-                "-u",
-                "bdd",
-                "--timeout",
-                "999999",
-                "--colors",
-                "D:/SOFTUNI/Repositories/JS Core/JS Advanced/09. Exam/2/02. Auto Service.test.js"
-            ],
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "D:/SOFTUNI/Repositories/JS Core/JS Applications/02. AJAX and jQuery AJAX/Lab/2. AJAX Load/ajax-load.html",
+            "url": "D:/SOFTUNI/Repositories/JavaScriptCore/JS Applications/XS/ranking.html",
             "webRoot": "${workspaceFolder}"
         },
         {
